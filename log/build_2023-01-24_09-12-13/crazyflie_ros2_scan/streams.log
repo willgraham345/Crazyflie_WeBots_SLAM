@@ -1,0 +1,25 @@
+[1.185s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/build --no-deps install_data
+[1.384s] running develop
+[1.499s] running egg_info
+[1.499s] creating crazyflie_ros2_scan.egg-info
+[1.499s] writing crazyflie_ros2_scan.egg-info/PKG-INFO
+[1.499s] writing dependency_links to crazyflie_ros2_scan.egg-info/dependency_links.txt
+[1.499s] writing entry points to crazyflie_ros2_scan.egg-info/entry_points.txt
+[1.499s] writing requirements to crazyflie_ros2_scan.egg-info/requires.txt
+[1.499s] writing top-level names to crazyflie_ros2_scan.egg-info/top_level.txt
+[1.501s] writing manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[1.523s] reading manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[1.524s] writing manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[1.547s] running build_ext
+[1.547s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages/site.py
+[1.549s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie-ros2-scan.egg-link (link to .)
+[1.549s] Installing range_to_lidar script to /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/crazyflie_ros2_scan
+[1.549s] 
+[1.549s] Installed /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan
+[1.549s] running install_data
+[1.549s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/ament_index
+[1.550s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/ament_index/resource_index
+[1.550s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/ament_index/resource_index/packages
+[1.550s] copying resource/crazyflie_ros2_scan -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/ament_index/resource_index/packages
+[1.550s] copying package.xml -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan
+[1.578s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan' returned '0': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/build --no-deps install_data

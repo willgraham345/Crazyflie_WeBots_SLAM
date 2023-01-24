@@ -1,0 +1,24 @@
+[0.213s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation -- -j16 -l16
+[0.731s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation -- -j16 -l16
+[0.768s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation
+[0.781s] -- Install configuration: ""
+[0.781s] -- Execute custom install script
+[0.781s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/launch/navigation_real_launch.py
+[0.781s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/launch/navigation_simulation_launch.py
+[0.781s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/params/nav2_params.yaml
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/ament_index/resource_index/package_run_dependencies/crazyflie_ros2_navigation
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/ament_index/resource_index/parent_prefix_path/crazyflie_ros2_navigation
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/environment/ament_prefix_path.sh
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/environment/ament_prefix_path.dsv
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/environment/path.sh
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/environment/path.dsv
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/local_setup.bash
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/local_setup.sh
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/local_setup.zsh
+[0.782s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/local_setup.dsv
+[0.783s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.dsv
+[0.789s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/ament_index/resource_index/packages/crazyflie_ros2_navigation
+[0.789s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/cmake/crazyflie_ros2_navigationConfig.cmake
+[0.790s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/cmake/crazyflie_ros2_navigationConfig-version.cmake
+[0.790s] -- Up-to-date symlink: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.xml
+[0.810s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation

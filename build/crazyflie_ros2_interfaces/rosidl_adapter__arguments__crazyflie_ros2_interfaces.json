@@ -1,0 +1,6 @@
+{
+  "package_name": "crazyflie_ros2_interfaces",
+  "non_idl_tuples": [
+    "/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces:action/MultiRangerScan.action"
+  ]
+}

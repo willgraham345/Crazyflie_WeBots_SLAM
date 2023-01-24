@@ -1,0 +1,731 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.111s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbccbe0fdc0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbccbe0fdc0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbccbe17370>)
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.127s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/will/Crazyflie_WeBots_SLAM'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.135s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ignore_ament_install'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_pkg']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_pkg'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['colcon_meta']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'colcon_meta'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['ros']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(cache) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2' with type 'ros.ament_python' and name 'crazyflie_ros2'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_description) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2_description' with type 'ros.ament_cmake' and name 'crazyflie_ros2_description'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces' with type 'ros.ament_cmake' and name 'crazyflie_ros2_interfaces'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_navigation) by extension 'ros'
+[0.147s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2_navigation' with type 'ros.ament_cmake' and name 'crazyflie_ros2_navigation'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extension 'ignore_ament_install'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extensions ['colcon_pkg']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extension 'colcon_pkg'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extensions ['colcon_meta']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extension 'colcon_meta'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extensions ['ros']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_scan) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2_scan' with type 'ros.ament_python' and name 'crazyflie_ros2_scan'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper' with type 'ros.ament_python' and name 'crazyflie_ros2_simple_mapper'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_simulation) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2_simulation' with type 'ros.ament_python' and name 'crazyflie_ros2_simulation'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/crazyflie_ros2_experimental/crazyflie_ros2_slam) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/crazyflie_ros2_experimental/crazyflie_ros2_slam' with type 'ros.ament_cmake' and name 'crazyflie_ros2_slam'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 358 installed packages in /opt/ros/galactic
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.240s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'cmake_target' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.241s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.241s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.242s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_description', 'symlink_install': True, 'test_result_base': None}
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.242s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.243s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'cmake_args' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'cmake_target' from command line to 'None'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.243s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'cmake_target' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'cmake_clean_first' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'cmake_force_configure' from command line to 'False'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'ament_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.244s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_scan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.244s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2_scan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_scan', 'symlink_install': True, 'test_result_base': None}
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'cmake_target' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.245s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simple_mapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.245s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2_simple_mapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper', 'symlink_install': True, 'test_result_base': None}
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.246s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_simulation', 'symlink_install': True, 'test_result_base': None}
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'cmake_target' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'crazyflie_ros2_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'crazyflie_ros2_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_slam', 'symlink_install': True, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/explore', 'symlink_install': True, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/map_merge', 'symlink_install': True, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.252s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.252s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2' with build type 'ament_python'
+[0.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2', 'ament_prefix_path')
+[0.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/hook/ament_prefix_path.dsv'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/hook/ament_prefix_path.sh'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_description' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_description'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_interfaces'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_navigation' with build type 'ament_cmake'
+[0.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_navigation'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_scan' with build type 'ament_python'
+[0.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_scan', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/ament_prefix_path.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper' with build type 'ament_python'
+[0.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_simple_mapper', 'ament_prefix_path')
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/ament_prefix_path.ps1'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/ament_prefix_path.dsv'
+[0.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/ament_prefix_path.sh'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_simulation' with build type 'ament_python'
+[0.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_simulation', 'ament_prefix_path')
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/ament_prefix_path.ps1'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/ament_prefix_path.dsv'
+[0.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/ament_prefix_path.sh'
+[0.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.294s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_slam' with build type 'ament_cmake'
+[0.294s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_slam'
+[0.295s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.295s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.298s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/explore' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/explore'
+[0.299s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.299s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/map_merge' with build type 'ament_cmake'
+[0.303s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/map_merge'
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'crazyflie_ros2' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description -- -j16 -l16
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces -- -j16 -l16
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation -- -j16 -l16
+[0.648s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_scan'
+[0.649s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.650s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.814s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'crazyflie_ros2_simple_mapper' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.815s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_simple_mapper'
+[0.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.816s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.979s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'crazyflie_ros2_simulation' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.980s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_simulation'
+[0.981s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.981s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam -- -j16 -l16
+[0.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/explore_lite -- -j16 -l16
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge -- -j16 -l16
+[1.002s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description -- -j16 -l16
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces -- -j16 -l16
+[1.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation -- -j16 -l16
+[1.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam -- -j16 -l16
+[1.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation
+[1.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces
+[1.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam
+[1.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_description)
+[1.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description' for CMake module files
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description' for CMake config files
+[1.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_description', 'cmake_prefix_path')
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/hook/cmake_prefix_path.ps1'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/hook/cmake_prefix_path.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/hook/cmake_prefix_path.sh'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/bin'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/lib/pkgconfig/crazyflie_ros2_description.pc'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/lib/python3.8/site-packages'
+[1.071s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/bin'
+[1.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.dsv'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.bash'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.zsh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/colcon-core/packages/crazyflie_ros2_description)
+[1.080s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_navigation)
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation' for CMake module files
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation' for CMake config files
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_navigation
+[1.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_navigation', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/hook/cmake_prefix_path.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/hook/cmake_prefix_path.dsv'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/hook/cmake_prefix_path.sh'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/bin'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/lib/pkgconfig/crazyflie_ros2_navigation.pc'
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/lib/python3.8/site-packages'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/bin'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.ps1'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.sh'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.bash'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.zsh'
+[1.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/colcon-core/packages/crazyflie_ros2_navigation)
+[1.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/explore_lite -- -j16 -l16
+[1.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge -- -j16 -l16
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_slam)
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam' for CMake module files
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_slam
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam' for CMake config files
+[1.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_slam', 'cmake_prefix_path')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/hook/cmake_prefix_path.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/hook/cmake_prefix_path.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/hook/cmake_prefix_path.sh'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/bin'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/lib/pkgconfig/crazyflie_ros2_slam.pc'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/lib/python3.8/site-packages'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.sh'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.bash'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.zsh'
+[1.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/colcon-core/packages/crazyflie_ros2_slam)
+[1.114s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_description)
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description' for CMake module files
+[1.116s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description' for CMake config files
+[1.116s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_description', 'cmake_prefix_path')
+[1.117s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/hook/cmake_prefix_path.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/hook/cmake_prefix_path.dsv'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/hook/cmake_prefix_path.sh'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/bin'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/lib/pkgconfig/crazyflie_ros2_description.pc'
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/lib/python3.8/site-packages'
+[1.119s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/bin'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.ps1'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.dsv'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.sh'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.bash'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.zsh'
+[1.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/colcon-core/packages/crazyflie_ros2_description)
+[1.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_interfaces)
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces' for CMake module files
+[1.124s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_interfaces
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces' for CMake config files
+[1.125s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_interfaces', 'cmake_prefix_path')
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/cmake_prefix_path.sh'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/lib'
+[1.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_interfaces', 'ld_library_path_lib')
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/ld_library_path_lib.sh'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/bin'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/lib/pkgconfig/crazyflie_ros2_interfaces.pc'
+[1.128s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages'
+[1.129s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_interfaces', 'pythonpath')
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/pythonpath.ps1'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/pythonpath.dsv'
+[1.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/pythonpath.sh'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/bin'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.sh'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.bash'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.zsh'
+[1.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/colcon-core/packages/crazyflie_ros2_interfaces)
+[1.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_navigation)
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation' for CMake module files
+[1.138s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation' for CMake config files
+[1.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_navigation', 'cmake_prefix_path')
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/hook/cmake_prefix_path.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/hook/cmake_prefix_path.dsv'
+[1.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/hook/cmake_prefix_path.sh'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/bin'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/lib/pkgconfig/crazyflie_ros2_navigation.pc'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/lib/python3.8/site-packages'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/bin'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.sh'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.bash'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/crazyflie_ros2_navigation/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_navigation/share/colcon-core/packages/crazyflie_ros2_navigation)
+[1.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/explore_lite
+[1.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge
+[1.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_slam)
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam' for CMake module files
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam' for CMake config files
+[1.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_slam', 'cmake_prefix_path')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/hook/cmake_prefix_path.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/hook/cmake_prefix_path.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/hook/cmake_prefix_path.sh'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/bin'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/lib/pkgconfig/crazyflie_ros2_slam.pc'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/lib/python3.8/site-packages'
+[1.158s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/bin'
+[1.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.sh'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.bash'
+[1.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/crazyflie_ros2_slam/package.zsh'
+[1.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_slam/share/colcon-core/packages/crazyflie_ros2_slam)
+[1.167s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_interfaces)
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces' for CMake module files
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces' for CMake config files
+[1.174s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_interfaces', 'cmake_prefix_path')
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/cmake_prefix_path.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/cmake_prefix_path.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/cmake_prefix_path.sh'
+[1.177s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/lib'
+[1.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_interfaces', 'ld_library_path_lib')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/ld_library_path_lib.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/ld_library_path_lib.dsv'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/ld_library_path_lib.sh'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/bin'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/lib/pkgconfig/crazyflie_ros2_interfaces.pc'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/lib/python3.8/site-packages'
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_interfaces', 'pythonpath')
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/pythonpath.ps1'
+[1.182s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/pythonpath.dsv'
+[1.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/hook/pythonpath.sh'
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/bin'
+[1.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.dsv'
+[1.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.sh'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.bash'
+[1.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/crazyflie_ros2_interfaces/package.zsh'
+[1.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_interfaces/share/colcon-core/packages/crazyflie_ros2_interfaces)
+[1.188s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite' for CMake module files
+[1.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/explore_lite
+[1.193s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite' for CMake config files
+[1.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/lib'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/bin'
+[1.196s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/lib/python3.8/site-packages'
+[1.197s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/bin'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.ps1'
+[1.199s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.dsv'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.sh'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.bash'
+[1.200s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.zsh'
+[1.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/colcon-core/packages/explore_lite)
+[1.203s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge' for CMake module files
+[1.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge' for CMake config files
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/lib'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/bin'
+[1.211s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/lib/python3.8/site-packages'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/bin'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[1.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[1.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite' for CMake module files
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite' for CMake config files
+[1.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[1.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/lib'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/bin'
+[1.228s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/lib/python3.8/site-packages'
+[1.229s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/bin'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.ps1'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.dsv'
+[1.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.sh'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.bash'
+[1.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.zsh'
+[1.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/colcon-core/packages/explore_lite)
+[1.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[1.238s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge' for CMake module files
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge' for CMake config files
+[1.239s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/lib'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/bin'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/lib/python3.8/site-packages'
+[1.241s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/bin'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[1.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[1.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[1.244s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[1.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/build --no-deps install_data
+[1.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2/build --no-deps install_data
+[1.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/build --no-deps install_data
+[1.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/build --no-deps install_data
+[1.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_simple_mapper', 'pythonpath_develop')
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/pythonpath_develop.ps1'
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper' returned '0': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/build --no-deps install_data
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/pythonpath_develop.dsv'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/pythonpath_develop.sh'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper' for CMake module files
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper' for CMake config files
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/bin'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/pkgconfig/crazyflie_ros2_simple_mapper.pc'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages'
+[1.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_simple_mapper', 'pythonpath')
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/pythonpath.ps1'
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/pythonpath.dsv'
+[1.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/hook/pythonpath.sh'
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/bin'
+[1.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_simple_mapper)
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/package.ps1'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/package.dsv'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/package.sh'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/package.bash'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/package.zsh'
+[1.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/colcon-core/packages/crazyflie_ros2_simple_mapper)
+[1.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2', 'pythonpath_develop')
+[1.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2/share/crazyflie_ros2/hook/pythonpath_develop.ps1'
+[1.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2' returned '0': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2/build --no-deps install_data
+[1.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2/share/crazyflie_ros2/hook/pythonpath_develop.dsv'
+[1.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2/share/crazyflie_ros2/hook/pythonpath_develop.sh'
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2' for CMake module files
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2' for CMake config files
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/lib'
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/bin'
+[1.716s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/lib/pkgconfig/crazyflie_ros2.pc'
+[1.717s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/lib/python3.8/site-packages'
+[1.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2', 'pythonpath')
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/hook/pythonpath.ps1'
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/hook/pythonpath.dsv'
+[1.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/hook/pythonpath.sh'
+[1.718s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/bin'
+[1.718s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2)
+[1.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/package.ps1'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/package.dsv'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/package.sh'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/package.bash'
+[1.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/crazyflie_ros2/package.zsh'
+[1.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2/share/colcon-core/packages/crazyflie_ros2)
+[1.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_simulation', 'pythonpath_develop')
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/pythonpath_develop.ps1'
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation' returned '0': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/build --no-deps install_data
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/pythonpath_develop.dsv'
+[1.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/pythonpath_develop.sh'
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation' for CMake module files
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation' for CMake config files
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/bin'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/pkgconfig/crazyflie_ros2_simulation.pc'
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages'
+[1.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_simulation', 'pythonpath')
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/pythonpath.ps1'
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/pythonpath.dsv'
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/hook/pythonpath.sh'
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/bin'
+[1.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_simulation)
+[1.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/package.ps1'
+[1.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/package.dsv'
+[1.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/package.sh'
+[1.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/package.bash'
+[1.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/package.zsh'
+[1.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/colcon-core/packages/crazyflie_ros2_simulation)
+[1.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_scan', 'pythonpath_develop')
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath_develop.ps1'
+[1.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan' returned '0': CONDA_PROMPT_MODIFIER=(crazyflie_Webots_SLAM) PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/build --no-deps install_data
+[1.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath_develop.dsv'
+[1.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath_develop.sh'
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan' for CMake module files
+[1.734s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan' for CMake config files
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/bin'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/pkgconfig/crazyflie_ros2_scan.pc'
+[1.735s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages'
+[1.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('crazyflie_ros2_scan', 'pythonpath')
+[1.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath.ps1'
+[1.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath.dsv'
+[1.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/hook/pythonpath.sh'
+[1.737s] Level 1:colcon.colcon_core.environment:checking '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/bin'
+[1.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(crazyflie_ros2_scan)
+[1.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/package.ps1'
+[1.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/package.dsv'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/package.sh'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/package.bash'
+[1.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/crazyflie_ros2_scan/package.zsh'
+[1.740s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/share/colcon-core/packages/crazyflie_ros2_scan)
+[1.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.740s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.744s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.744s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.753s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/will/Crazyflie_WeBots_SLAM/install/local_setup.ps1'
+[1.755s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/will/Crazyflie_WeBots_SLAM/install/_local_setup_util_ps1.py'
+[1.756s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/will/Crazyflie_WeBots_SLAM/install/setup.ps1'
+[1.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/will/Crazyflie_WeBots_SLAM/install/local_setup.sh'
+[1.757s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/will/Crazyflie_WeBots_SLAM/install/_local_setup_util_sh.py'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/will/Crazyflie_WeBots_SLAM/install/setup.sh'
+[1.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/will/Crazyflie_WeBots_SLAM/install/local_setup.bash'
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/will/Crazyflie_WeBots_SLAM/install/setup.bash'
+[1.759s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/will/Crazyflie_WeBots_SLAM/install/local_setup.zsh'
+[1.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/will/Crazyflie_WeBots_SLAM/install/setup.zsh'

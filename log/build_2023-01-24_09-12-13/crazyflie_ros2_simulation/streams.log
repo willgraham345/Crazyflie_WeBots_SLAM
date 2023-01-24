@@ -1,0 +1,39 @@
+[1.200s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/build --no-deps install_data
+[1.376s] running develop
+[1.535s] running egg_info
+[1.535s] creating crazyflie_ros2_simulation.egg-info
+[1.535s] writing crazyflie_ros2_simulation.egg-info/PKG-INFO
+[1.535s] writing dependency_links to crazyflie_ros2_simulation.egg-info/dependency_links.txt
+[1.535s] writing entry points to crazyflie_ros2_simulation.egg-info/entry_points.txt
+[1.535s] writing requirements to crazyflie_ros2_simulation.egg-info/requires.txt
+[1.536s] writing top-level names to crazyflie_ros2_simulation.egg-info/top_level.txt
+[1.536s] writing manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[1.563s] reading manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[1.564s] writing manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[1.592s] running build_ext
+[1.593s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages/site.py
+[1.593s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages/crazyflie-ros2-simulation.egg-link (link to .)
+[1.596s] Installing crazyflie_webots_driver script to /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/crazyflie_ros2_simulation
+[1.596s] 
+[1.596s] Installed /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation
+[1.596s] running install_data
+[1.596s] copying package.xml -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation
+[1.597s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/resource
+[1.597s] copying resource/crazyflie_ros2_simulation -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/resource/
+[1.599s] copying resource/crazyflie.urdf -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/resource/
+[1.599s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/launch
+[1.599s] copying launch/robot_launch.py -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/launch/
+[1.599s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds
+[1.599s] copying worlds/crazyflie.wbt -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/
+[1.599s] copying worlds/crazyflie_apartment.wbt -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/
+[1.599s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.599s] copying worlds/meshes/cw_prop.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.599s] copying worlds/meshes/cf_body.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.600s] copying worlds/meshes/battery.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.600s] copying worlds/meshes/4_motors.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.600s] copying worlds/meshes/battery_holder.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.600s] copying worlds/meshes/4_motormounts.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.600s] copying worlds/meshes/cf2_assembly.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.600s] copying worlds/meshes/2_pinheaders.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.600s] copying worlds/meshes/ccw_prop.stl -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/share/crazyflie_ros2_simulation/worlds/meshes
+[1.621s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation' returned '0': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/build --no-deps install_data

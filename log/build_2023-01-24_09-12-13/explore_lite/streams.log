@@ -1,0 +1,113 @@
+[0.703s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/will/Crazyflie_WeBots_SLAM/install/explore_lite
+[0.744s] -- The C compiler identification is GNU 9.4.0
+[0.796s] -- The CXX compiler identification is GNU 9.4.0
+[0.800s] -- Check for working C compiler: /usr/bin/cc
+[0.843s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.844s] -- Detecting C compiler ABI info
+[0.890s] -- Detecting C compiler ABI info - done
+[0.901s] -- Detecting C compile features
+[0.901s] -- Detecting C compile features - done
+[0.904s] -- Check for working CXX compiler: /usr/bin/c++
+[0.957s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.957s] -- Detecting CXX compiler ABI info
+[1.009s] -- Detecting CXX compiler ABI info - done
+[1.018s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.019s] -- BuilD for ROS2: galactic
+[1.020s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.036s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.037s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.082s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.098s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[1.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.142s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.203s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.225s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.334s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.335s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.359s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.360s] -- Looking for pthread.h
+[1.414s] -- Looking for pthread.h - found
+[1.414s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.460s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.460s] -- Looking for pthread_create in pthreads
+[1.501s] -- Looking for pthread_create in pthreads - not found
+[1.501s] -- Looking for pthread_create in pthread
+[1.546s] -- Looking for pthread_create in pthread - found
+[1.547s] -- Found Threads: TRUE  
+[1.669s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.760s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[2.041s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[2.046s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.048s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.072s] -- Found nav2_msgs: 1.0.12 (/opt/ros/galactic/share/nav2_msgs/cmake)
+[2.296s] -- Found map_msgs: 2.1.0 (/opt/ros/galactic/share/map_msgs/cmake)
+[2.422s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[2.477s] -- Found nav2_costmap_2d: 1.0.12 (/opt/ros/galactic/share/nav2_costmap_2d/cmake)
+[3.108s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.155s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[3.159s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.161s] -- Check if compiler accepts -pthread
+[3.207s] -- Check if compiler accepts -pthread - yes
+[3.416s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.417s] -- Configured cppcheck include dirs: /home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/explore/include;$<BUILD_INTERFACE:/home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/explore/include>
+[3.417s] -- Configured cppcheck exclude dirs and/or files: 
+[3.417s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.417s] -- Added test 'lint_cmake' to check CMake code style
+[3.418s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.418s] -- Added test 'uncrustify' to check C / C++ code style
+[3.418s] -- Configured uncrustify additional arguments: 
+[3.419s] -- Added test 'xmllint' to check XML markup files
+[3.422s] -- Configuring done
+[3.609s] -- Generating done
+[3.611s] -- Build files have been written to: /home/will/Crazyflie_WeBots_SLAM/build/explore_lite
+[3.617s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/will/Crazyflie_WeBots_SLAM/src/m-explore-ros2/explore -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/will/Crazyflie_WeBots_SLAM/install/explore_lite
+[3.619s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/explore_lite -- -j16 -l16
+[3.645s] [35m[1mScanning dependencies of target gtest[0m
+[3.645s] [35m[1mScanning dependencies of target gtest_main[0m
+[3.645s] [35m[1mScanning dependencies of target explore[0m
+[3.661s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.661s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[3.810s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[3.811s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[3.811s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[4.173s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.198s] [ 60%] Built target gtest_main
+[5.905s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.939s] [ 70%] Built target gtest
+[5.945s] [35m[1mScanning dependencies of target test_explore[0m
+[5.955s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[6.833s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[7.018s] [ 90%] Built target test_explore
+[11.631s] [100%] [32m[1mLinking CXX executable explore[0m
+[12.631s] [100%] Built target explore
+[12.638s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/explore_lite -- -j16 -l16
+[12.657s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/explore_lite
+[12.663s] -- Install configuration: ""
+[12.663s] -- Execute custom install script
+[12.663s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/include/explore//costmap_client.h
+[12.670s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/include/explore//costmap_tools.h
+[12.675s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/include/explore//explore.h
+[12.681s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/include/explore//frontier_search.h
+[12.687s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/config/params.yaml
+[12.693s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[12.699s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[12.705s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/lib/explore_lite/explore
+[12.711s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[12.717s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[12.723s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[12.728s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[12.734s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/environment/path.sh
+[12.740s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/environment/path.dsv
+[12.745s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/local_setup.bash
+[12.751s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/local_setup.sh
+[12.756s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/local_setup.zsh
+[12.762s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/local_setup.dsv
+[12.768s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.dsv
+[12.774s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[12.779s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.785s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[12.791s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[12.797s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/explore_lite/share/explore_lite/package.xml
+[12.806s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/explore_lite

@@ -1,0 +1,4 @@
+Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/explore_lite -- -j16 -l16
+Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/explore_lite -- -j16 -l16
+Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/explore_lite
+Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/explore_lite

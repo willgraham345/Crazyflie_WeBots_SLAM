@@ -1,0 +1,26 @@
+[1.216s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/build --no-deps install_data
+[1.398s] running develop
+[1.515s] running egg_info
+[1.515s] creating crazyflie_ros2_simple_mapper.egg-info
+[1.515s] writing crazyflie_ros2_simple_mapper.egg-info/PKG-INFO
+[1.515s] writing dependency_links to crazyflie_ros2_simple_mapper.egg-info/dependency_links.txt
+[1.515s] writing entry points to crazyflie_ros2_simple_mapper.egg-info/entry_points.txt
+[1.515s] writing requirements to crazyflie_ros2_simple_mapper.egg-info/requires.txt
+[1.515s] writing top-level names to crazyflie_ros2_simple_mapper.egg-info/top_level.txt
+[1.516s] writing manifest file 'crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[1.539s] reading manifest file 'crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[1.539s] writing manifest file 'crazyflie_ros2_simple_mapper.egg-info/SOURCES.txt'
+[1.563s] running build_ext
+[1.564s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/site.py
+[1.565s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages/crazyflie-ros2-simple-mapper.egg-link (link to .)
+[1.566s] Installing simple_mapper script to /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/crazyflie_ros2_simple_mapper
+[1.566s] 
+[1.566s] Installed /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper
+[1.566s] running install_data
+[1.566s] copying package.xml -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper
+[1.566s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/resource
+[1.566s] copying resource/crazyflie_ros2_simple_mapper -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/resource/
+[1.566s] creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/launch
+[1.566s] copying launch/simple_mapper_simulation_launch.py -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/launch/
+[1.566s] copying launch/simple_mapper_real_launch.py -> /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/share/crazyflie_ros2_simple_mapper/launch/
+[1.601s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper' returned '0': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simple_mapper/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simple_mapper/build --no-deps install_data

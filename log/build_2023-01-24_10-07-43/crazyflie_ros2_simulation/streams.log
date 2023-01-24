@@ -1,0 +1,17 @@
+[1.104s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/build --no-deps install_data
+[1.271s] running develop
+[1.386s] running egg_info
+[1.387s] writing crazyflie_ros2_simulation.egg-info/PKG-INFO
+[1.387s] writing dependency_links to crazyflie_ros2_simulation.egg-info/dependency_links.txt
+[1.387s] writing entry points to crazyflie_ros2_simulation.egg-info/entry_points.txt
+[1.387s] writing requirements to crazyflie_ros2_simulation.egg-info/requires.txt
+[1.387s] writing top-level names to crazyflie_ros2_simulation.egg-info/top_level.txt
+[1.410s] reading manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[1.410s] writing manifest file 'crazyflie_ros2_simulation.egg-info/SOURCES.txt'
+[1.433s] running build_ext
+[1.433s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages/crazyflie-ros2-simulation.egg-link (link to .)
+[1.434s] Installing crazyflie_webots_driver script to /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/crazyflie_ros2_simulation
+[1.434s] 
+[1.434s] Installed /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation
+[1.434s] running install_data
+[1.454s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation' returned '0': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_simulation/build --no-deps install_data

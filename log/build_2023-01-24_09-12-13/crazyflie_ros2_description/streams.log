@@ -1,0 +1,57 @@
+[0.208s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description
+[0.745s] -- The C compiler identification is GNU 9.4.0
+[0.746s] -- The CXX compiler identification is GNU 9.4.0
+[0.746s] -- Check for working C compiler: /usr/bin/cc
+[0.746s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.747s] -- Detecting C compiler ABI info
+[0.747s] -- Detecting C compiler ABI info - done
+[0.748s] -- Detecting C compile features
+[0.749s] -- Detecting C compile features - done
+[0.749s] -- Check for working CXX compiler: /usr/bin/c++
+[0.749s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.749s] -- Detecting CXX compiler ABI info
+[0.757s] -- Detecting CXX compiler ABI info - done
+[0.760s] -- Detecting CXX compile features
+[0.760s] -- Detecting CXX compile features - done
+[0.766s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.785s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.785s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.836s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.859s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.930s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.932s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.932s] -- Added test 'lint_cmake' to check CMake code style
+[0.933s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.934s] -- Added test 'xmllint' to check XML markup files
+[0.937s] -- Configuring done
+[0.939s] -- Generating done
+[0.940s] -- Build files have been written to: /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description
+[0.944s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/will/Crazyflie_WeBots_SLAM/src/crazyflie_ros2_experimental/crazyflie_ros2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description
+[0.947s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description -- -j16 -l16
+[0.975s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description -- -j16 -l16
+[0.998s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description
+[1.005s] -- Install configuration: ""
+[1.005s] -- Execute custom install script
+[1.006s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/launch/rviz_launch.py
+[1.013s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/urdf/crazyflie_description.urdf
+[1.020s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/rviz/crazyflie.rviz
+[1.026s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/ccw_prop.dae
+[1.032s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/cf2_assembly.dae
+[1.038s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/cf2_assembly.stl
+[1.044s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/meshes/cw_prop.dae
+[1.051s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/ament_index/resource_index/package_run_dependencies/crazyflie_ros2_description
+[1.057s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/ament_index/resource_index/parent_prefix_path/crazyflie_ros2_description
+[1.064s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/ament_prefix_path.sh
+[1.070s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/ament_prefix_path.dsv
+[1.076s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/path.sh
+[1.082s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/environment/path.dsv
+[1.088s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.bash
+[1.094s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.sh
+[1.101s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.zsh
+[1.107s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/local_setup.dsv
+[1.113s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.dsv
+[1.119s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/ament_index/resource_index/packages/crazyflie_ros2_description
+[1.125s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/cmake/crazyflie_ros2_descriptionConfig.cmake
+[1.131s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/cmake/crazyflie_ros2_descriptionConfig-version.cmake
+[1.138s] -- Symlinking: /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_description/share/crazyflie_ros2_description/package.xml
+[1.153s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_description

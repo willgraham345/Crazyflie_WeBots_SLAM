@@ -1,0 +1,17 @@
+[1.063s] Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/build --no-deps install_data
+[1.234s] running develop
+[1.350s] running egg_info
+[1.350s] writing crazyflie_ros2_scan.egg-info/PKG-INFO
+[1.350s] writing dependency_links to crazyflie_ros2_scan.egg-info/dependency_links.txt
+[1.350s] writing entry points to crazyflie_ros2_scan.egg-info/entry_points.txt
+[1.350s] writing requirements to crazyflie_ros2_scan.egg-info/requires.txt
+[1.350s] writing top-level names to crazyflie_ros2_scan.egg-info/top_level.txt
+[1.373s] reading manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[1.373s] writing manifest file 'crazyflie_ros2_scan.egg-info/SOURCES.txt'
+[1.396s] running build_ext
+[1.396s] Creating /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages/crazyflie-ros2-scan.egg-link (link to .)
+[1.396s] Installing range_to_lidar script to /home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/crazyflie_ros2_scan
+[1.396s] 
+[1.396s] Installed /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan
+[1.397s] running install_data
+[1.417s] Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan' returned '0': PYTHONPATH=/home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/prefix_override:/home/will/Crazyflie_WeBots_SLAM/install/crazyflie_ros2_scan/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/will/Crazyflie_WeBots_SLAM/build/crazyflie_ros2_scan/build --no-deps install_data

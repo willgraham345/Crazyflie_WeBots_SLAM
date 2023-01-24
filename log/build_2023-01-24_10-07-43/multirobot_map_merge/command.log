@@ -1,0 +1,4 @@
+Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge -- -j16 -l16
+Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge -- -j16 -l16
+Invoking command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge
+Invoked command in '/home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/will/Crazyflie_WeBots_SLAM/build/multirobot_map_merge
